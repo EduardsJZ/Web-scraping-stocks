@@ -15,9 +15,9 @@
 * **requests** -  lai iegūtu reāllaika valūtas kursu no USD uz EUR
 * **selenium.webdriver klases** - lai nodrošinātu programmas funkcionalitāti darbībā ar Yahoo Finance, kas ielādējas tikai pēc "Cookies" apstiprināšanas
 ### Pašdefinētas datu struktūras
-**HashTable** klase, kas glabā informāciju par vairākām akcijām izmantojot Stock klases objektu
-**Stock** klase, kas satur akcijas datus: simbolu, cenu, valūtu, ziņas
-**Node** klase, kas palīdz HashTable struktūras darbībai
+* **HashTable** klase, kas glabā informāciju par vairākām akcijām izmantojot Stock klases objektu
+* **Stock** klase, kas satur akcijas datus: simbolu, cenu, valūtu, ziņas
+* **Node** klase, kas palīdz HashTable struktūras darbībai
 ### Programmatūras izmantošanas metodes
 Programma darbojas terminālī, piedāvājot lietotājam izvēlēties darbības izmantojot ciparus
 - Galvenā izvēlne
