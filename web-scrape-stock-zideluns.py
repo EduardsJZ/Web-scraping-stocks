@@ -212,7 +212,7 @@ while True:
                 print("3 - Grafiks")
                 print("4 - Saglabāt un Atgriezties")
                 print("5 - Atcelt")
-                sub_choice = input("Izvēlieties darbību (1-5): ").strip()
+                sub_choice = input("Izvēlieties darbību: ").strip()
                 match sub_choice:
                     case '1':
                         price, currency = get_price(symbol)
