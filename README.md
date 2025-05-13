@@ -9,11 +9,11 @@
 - Iegūtos datus saglabā Hash tabulā
 - Atbalsta valūtas konvertāciju no USD uz EUR 
 ### Izmantotās bibliotēkas
-**selenium** - lai atomatizētu tīmekļa skrāpēšanu no Yahoo Finance, tā iegūstot akcijas pašreizējo cenu un jaunākās ziņas
-**yfinance** - lai pārbaudītu akcijas eksistenci un iegūtu akcijas cenas vēsturi grafika veidošanai
-**matplotlib** - lai izveidotu un saglabātu akcijas grafiku kā attēlu
-**requests** -  lai iegūtu reāllaika valūtas kursu no USD uz EUR
-**selenium.webdriver klases** - lai nodrošinātu programmas funkcionalitāti darbībā ar Yahoo Finance, kas ielādējas tikai pēc "Cookies" apstiprināšanas
+* selenium - lai atomatizētu tīmekļa skrāpēšanu no Yahoo Finance, tā iegūstot akcijas pašreizējo cenu un jaunākās ziņas
+* yfinance - lai pārbaudītu akcijas eksistenci un iegūtu akcijas cenas vēsturi grafika veidošanai
+* matplotlib - lai izveidotu un saglabātu akcijas grafiku kā attēlu
+* requests -  lai iegūtu reāllaika valūtas kursu no USD uz EUR
+* selenium.webdriver klases - lai nodrošinātu programmas funkcionalitāti darbībā ar Yahoo Finance, kas ielādējas tikai pēc "Cookies" apstiprināšanas
 ### Pašdefinētas datu struktūras
 **HashTable** klase, kas glabā informāciju par vairākām akcijām izmantojot Stock klases objektu
 **Stock** klase, kas satur akcijas datus: simbolu, cenu, valūtu, ziņas
