@@ -1,5 +1,5 @@
 # Web-scraping-stocks
-## Projekts Datu struktūras un algoritmi(1), 24/25-P | Eduards Jānis Žideļuns | 14. grupa | 241RDB147
+## Projekts Datu struktūras un algoritmi(1), 24/25-P | Eduards Jānis Žideļuns | 14. grupa
 ### Programmas uzdevums
 - Ļauj lietotājam ievadīt akcijas Tikera simbolu
 - Pēc lietotāja izvēles, iegūst attiecīgās akcijas informāciju :
