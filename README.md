@@ -1,4 +1,4 @@
-# Akciju informācijas apkopotājs
+# Akciju informācijas savācējs
 ## Projekts Datu struktūras un algoritmi | Eduards Jānis Žideļuns | 14. grupa
 ### Programmas uzdevums
 - Ļauj lietotājam ievadīt akcijas Tikera simbolu
