@@ -1,4 +1,4 @@
-# Web-scraping-stocks
+# Akciju informācijas 
 ## Projekts Datu struktūras un algoritmi | Eduards Jānis Žideļuns | 14. grupa
 ### Programmas uzdevums
 - Ļauj lietotājam ievadīt akcijas Tikera simbolu
@@ -28,5 +28,5 @@ Programma darbojas terminālī, piedāvājot lietotājam izvēlēties darbības 
   **1** - Cena - iegūs izvēlētās akcijas cenu  
   **2** - Jaunākās ziņas - iegūs izvēlētās akcijas jaunākās 5 ziņas  
   **3** - Grafiks - saglabās akcijas cenu grafiku kā PNG failu  
-  **4** - Saglabāt un Atgriezties - saglabās iegūtos datus Hash tabulā un atgriezīsies pie galvenās izvēlnes  
+  **4** - Saglabāt un Atgriezties - saglabās iegūtos datus Hash tabulā un atgriezīsies pie galvenās izvēlnes 
   **5** - Atcelt - atgriezīsies pie galvenās izvēlnes nesaglabājot iegūtos datus  
