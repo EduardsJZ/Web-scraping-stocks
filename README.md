@@ -20,13 +20,13 @@
 * **Node** klase, kas palīdz HashTable struktūras darbībai
 ### Programmatūras izmantošanas metodes
 Programma darbojas terminālī, piedāvājot lietotājam izvēlēties darbības izmantojot ciparus
-- Galvenā izvēlne
-  **1** Ievadīt akciju - ļauj lietotājam ievadīt akcijas Tikera simbolu, un piedāvās nākamo izvēlni
-  **2** Izvadīt - izvada iepriekš saglabātos datus
-  **3** Beigt - beidz programmas darbību
-- Apakšizvēlne pēc izvēles "Ievadīt akciju"
-  **1** Cena - iegūs izvēlētās akcijas cenu
-  **2** Jaunākās ziņas - iegūs izvēlētās akcijas jaunākās 5 ziņas
-  **3** Grafiks - saglabās akcijas cenu grafiku kā PNG failu
-  **4** Saglabāt un Atgriezties - saglabās iegūtos datus Hash tabulā un atgriezīsies pie galvenās izvēlnes
-  **5** Atcelt - atgriezīsies pie galvenās izvēlnes nesaglabājot iegūtos datus
+- Galvenā izvēlne  
+  **1** Ievadīt akciju - ļauj lietotājam ievadīt akcijas Tikera simbolu, un piedāvās nākamo izvēlni  
+  **2** Izvadīt - izvada iepriekš saglabātos datus  
+  **3** Beigt - beidz programmas darbību  
+- Apakšizvēlne pēc izvēles "Ievadīt akciju"  
+  **1** Cena - iegūs izvēlētās akcijas cenu  
+  **2** Jaunākās ziņas - iegūs izvēlētās akcijas jaunākās 5 ziņas  
+  **3** Grafiks - saglabās akcijas cenu grafiku kā PNG failu  
+  **4** Saglabāt un Atgriezties - saglabās iegūtos datus Hash tabulā un atgriezīsies pie galvenās izvēlnes  
+  **5** Atcelt - atgriezīsies pie galvenās izvēlnes nesaglabājot iegūtos datus  
