@@ -54,7 +54,7 @@ class Stock:
 
 def get_news(symbol):
     options = Options()
-    # options.add_argument("--headless")
+    options.add_argument("--headless")
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
     options.add_argument("--lang=en-US")
     options.add_argument("--disable-gpu")
@@ -102,7 +102,7 @@ def get_news(symbol):
 
 def get_price(symbol):
     options = Options()
-    # options.add_argument("--headless")
+    options.add_argument("--headless")
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
     options.add_argument("--lang=en-US")
     options.add_argument("--disable-gpu")
@@ -119,8 +119,8 @@ def get_price(symbol):
             cookie_button.click()
             # print("Cookies accepted.")
         except Exception:
-            # print("No cookie popup found.")
-            return None
+            print("No cookie popup found.")
+            
 
         price_element = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.XPATH, '//*[@id="nimbus-app"]/section/section/section/article/section[1]/div[2]/div[1]/section/div/section/div[1]/div[1]/span'))
